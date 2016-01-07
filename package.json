@@ -1,0 +1,26 @@
+{
+  "name": "webstrate-headless",
+  "version": "1.0.0",
+  "description": "headless client for webstrates",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrikkorsgaard/webstrate-headless.git"
+  },
+  "author": "Henrik Korsgaard",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/henrikkorsgaard/webstrate-headless/issues"
+  },
+  "homepage": "https://github.com/henrikkorsgaard/webstrate-headless#readme",
+  "dependencies": {
+    "hiredis": "^0.4.1",
+    "request": "^2.67.0",
+    "share": "^0.7.40",
+    "websocket": "^1.0.22",
+    "ws": "^1.0.1"
+  }
+}
