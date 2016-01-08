@@ -18,6 +18,8 @@
   "homepage": "https://github.com/henrikkorsgaard/webstrate-headless#readme",
   "dependencies": {
     "hiredis": "^0.4.1",
+    "jsdom": "^7.2.2",
+    "jsonml-tools": "git://github.com/cklokmose/jsonml-tools.git",
     "request": "^2.67.0",
     "share": "^0.7.40",
     "ws": "^1.0.1"

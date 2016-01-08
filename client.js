@@ -9,9 +9,10 @@ TODO:
 'use strict';
 let WebstrateClient = require('./lib/WebstrateClient.js');
 
-let client  = new WebstrateClient("test", {});
+let client  = new WebstrateClient("helloworld", "http://webstrate.cs.au.dk",{authentication:true, login:"web", password:"strate"});
 
-console.log(client.document);
+
+
 
 /*
 let WebSocket = require('ws');
